@@ -1,0 +1,16 @@
+[
+  {
+    "nombre": "emanuel",
+    "email": "elema@hotmal.com",
+    "mensaje": "hola tengo un reclamo",
+    "numero": 91654321,
+    "id": 1
+  },
+  {
+    "nombre": "gonzalo",
+    "email": "gonchichiesa5@gmail.com",
+    "mensaje": "Holaaa",
+    "numero": 94776709,
+    "id": 2
+  }
+]

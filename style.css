@@ -1,0 +1,271 @@
+body {
+  background-color: white;
+  padding: 0;
+}
+
+.header {
+  background: rgb(32, 32, 85);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 15px;
+  text-align: center;
+}
+
+header nav {
+  width: 65%;
+  margin: auto; /* Agregado para centrar */
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none; /* Eliminado del li, ya que ya estás usando en ul */
+}
+
+header nav ul li {
+  border: 1px;
+  color: white;
+  margin: 0 ; /* Ajusta el margen según tus preferencias */
+  margin: 0 5px;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  background-color: rgba(35, 35, 82);
+}
+
+header nav ul a:hover {
+  background-color: rgba(117, 154, 199, 0.5);
+}
+
+
+.containerBanner {
+  background-image: url("imagenes/banner.jpg");
+  position: relative;
+  height: 40vh;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px;
+}
+
+.txtBanner {
+  position: relative;
+  top: 50px;
+}
+
+.txtBanner h1 {
+  margin: 10px;
+}
+
+.txtBanner h2 {
+  color: white;
+  font-weight: 200;
+}
+
+.titulos {
+  text-align: center;
+}
+
+.titulos h1 {
+  font-weight: bolder;
+}
+
+.titulos h2 {
+  font-style: italic;
+  font-weight: lighter;
+  padding: 10px;
+  margin: 10px;
+}
+
+.txtBanner {
+  color: rgb(255, 255, 0);
+  text-align: center;
+  background-color: rgb(69, 69, 165);
+  opacity: 0.7;
+  margin: auto;
+}
+
+.txtBanner h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.titulos h1 {
+  margin: 15px;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.txtSecundario h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.txtSecundario h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 20px;
+  margin: 2rem;
+}
+
+.sectionPrincipal {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  background-color: rgb(32, 32, 85);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 30px 10px;
+  width: 30%;
+  /* add */
+  min-width: 250px;
+}
+
+article h2 {
+  text-align: center;
+  margin: 3rem 0 0 0;
+  padding: 1rem;
+}
+
+article p {
+  text-align: center;
+  padding: 10px;
+}
+
+article button {
+  color: white;
+  background-color: rgb(255, 115, 0);
+  padding: 5px 0;
+  font-weight: 200;
+  font-size: 1.2rem;
+  width: 40%;
+  border-radius: 5px;
+  margin: 15px auto;
+  border: 0;
+}
+
+article img {
+  display: flex;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid white;
+  width: 100px;
+}
+
+.img1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  position: relative;
+  /* Cambiado a posición relativa */
+  margin: -60px auto 5px;
+  /* Alineado al centro y agregado margen inferior */
+
+}
+
+.img2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  position: relative;
+  /* Cambiado a posición relativa */
+  margin: -60px auto 5px;
+  /* Alineado al centro y agregado margen inferior */
+
+}
+
+.img3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  position: relative;
+  /* Cambiado a posición relativa */
+  margin: -60px auto 5px;
+  /* Alineado al centro y agregado margen inferior */
+
+}
+
+.footers {
+  background-color: rgb(32, 32, 85);
+  display: flex;
+  margin: 10px 0;
+  padding: 20px;
+  color: #fff;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.redes {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.redesSociales {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.redesSociales img {
+  width: 30px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.dato {
+  display: flex;
+  flex-direction: row;
+}
+
+.dato p {
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.dato img {
+  width: auto;
+    height: 25px;
+}
+
+.sections {
+  padding: 30px;
+  width: 20%;
+display: flex;
+min-height: 16rem;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.alinearF{
+  display: block;
+  align-self: auto;
+}
