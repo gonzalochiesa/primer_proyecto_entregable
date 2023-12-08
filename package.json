@@ -1,9 +1,9 @@
 {
   "name": "1er-entregable",
   "version": "1.0.0",
-  "main": "express.js",
+  "main": "metodos.js",
   "scripts": {
-    "test": "nodemon ./express.js"
+    "test": "nodemon ./metodos.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,6 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon":"3.0.2"}
+    "nodemon": "3.0.2"
+  }
 }
